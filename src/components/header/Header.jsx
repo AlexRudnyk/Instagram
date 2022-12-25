@@ -13,19 +13,19 @@ export const Header = () => {
   return (
     <Container>
       <div>
-        <a href="/">
+        <a href="./index.html">
           <img src={logo} alt="Logo" />
         </a>
       </div>
       <HeaderInput placeholder="Search" type="text" />
       <HeaderNav>
-        <a href="/">
+        <a href="./index.html">
           <HeaderNavImg src={explore} alt="explore" />
         </a>
-        <a href="/">
+        <a href="./index.html">
           <HeaderNavImg src={likes} alt="likes" />
         </a>
-        <a href="/">
+        <a href="./index.html">
           <HeaderNavImg src={settings} alt="settings" />
         </a>
       </HeaderNav>

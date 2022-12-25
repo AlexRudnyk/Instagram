@@ -12,7 +12,7 @@ export const Footer = () => {
   const linksJSX = links.map(({ id, message }) => {
     return (
       <FooterListItem key={id}>
-        <FooterLink href="/">{message}</FooterLink>
+        <FooterLink href="./index.html">{message}</FooterLink>
       </FooterListItem>
     );
   });
