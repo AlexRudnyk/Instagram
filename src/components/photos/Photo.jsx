@@ -1,9 +1,9 @@
 import { PhotoContainer } from './Photo.styled';
 
-export const Photo = ({ src, secured }) => {
-  return secured ? null : (
+export const Photo = props => {
+  return props.secured ? null : (
     <PhotoContainer>
-      <img src={src} alt="space" />
+      <img src={props.src} alt="beard" />
     </PhotoContainer>
   );
 };
